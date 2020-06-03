@@ -1,4 +1,7 @@
 package com.file.watcher.demo.repository;
 
-public class PathRepository {
+import com.file.watcher.demo.entity.PathEntity;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface PathRepository extends JpaRepository<PathEntity, Long> {
 }
